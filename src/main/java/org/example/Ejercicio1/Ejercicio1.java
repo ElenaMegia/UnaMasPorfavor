@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Ejercicio1;
 
 public class Ejercicio1 {
     static final double N = 2;

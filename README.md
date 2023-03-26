@@ -52,6 +52,9 @@ void f(int num, int div){
 1. Dado un número cualquiera x, ¿qué nos muestra por pantalla la llamada a la función
    recursiva f(x,2)? ¿Cuál sería un nombre más adecuado para la función f?
 
+- La llamada a la funcion recursiva f(x,2) muestra por pantalla los factores primos de x.
+- Seria por ejemplo factoresPrimos.
+
 2. Implemente un algoritmo iterativo y uno implementado mediante expresiones lambda
    equivalentes.
 

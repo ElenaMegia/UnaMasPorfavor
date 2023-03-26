@@ -26,7 +26,13 @@ return bisect (med,max);
 1. ¿Qué calcula la llamada a la función recursiva bisect(0,N)? Si cambiamos el
    valor de N, ¿qué estaríamos calculando? ¿Y si cambiásemos la función f(x)?
 
+- La llamada a la funcion recursiva calcula la raiz de la funcion f(x) en el intervalo [0,N] con una precision de 1e-6. Si cambiamos el valor de N, estariamos calculando la raiz de la funcion f(x) en el intervalo [0,N] con una precision de 1e-6. Si cambiamos la funcion f(x) por f(x) = x^3 - N, estariamos calculando la raiz de la funcion f(x) en el intervalo [0,N] con una precision de 1e-6.
+- Si cambiamos el valor de N, la funcion f(x) cambia tambien, aunque se calcularia la raiz de la misma manera.
+- Si cambiamos la funcion f(x) se calcula la raiz de la funcion f(x) en el intervalo [0,N] con una precision de 1e-6, aunque puede surguir un error si cambiamos f(x) a una funcion donde no tenga raiz.
+
+
 2. Implemente un algoritmo iterativo equivalente.
+
 
 ## Ejercicio 2: Dado el siguiente algoritmo recursivo:
 

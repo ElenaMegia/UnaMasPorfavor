@@ -29,8 +29,8 @@ public class Menu {
                         + "Porfavor escriba la opción deseada: ");
 
                 int choice = keyboard.nextInt();
-                if (choice < 0 || choice > 2)
-                    throw new OutofRangeException("Error. Tienes que introducir un número entre 0 y 4"); //Excepcion introducida para comprobar que los valores esten entre 0 y 5
+                if (choice < 0 || choice > 5)
+                    throw new OutofRangeException("Error. Tienes que introducir un número entre 0 y 5"); //Excepcion introducida para comprobar que los valores esten entre 0 y 5
                 Menu(choice);
             } catch (OutofRangeException exc2) {
                 System.out.println(exc2.getMessage());

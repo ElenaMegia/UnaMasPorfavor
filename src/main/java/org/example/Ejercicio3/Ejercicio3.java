@@ -11,7 +11,7 @@ public class Ejercicio3 {
     Function<Integer, String> decimalToHex = ( num) -> {return Integer.toHexString(num);
     };
 
-    public static void main(String[] args) {
+    public static void Ejercicio3metodo() {
         int decimal = 123;
         int base = 16;
         Integer hexadecimal = decimalToBase.apply(base).apply(decimal);
